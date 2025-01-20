@@ -37,7 +37,7 @@ time.sleep(3)
 # Passo 3: Importar a base de produtos pra cadastrar
 import pandas as pd
 
-tabela = pd.read_csv(r"Aula 1 - Python PowerUp/produtos.csv")
+tabela = pd.read_csv(r"C:\Users\leila\Desktop\Jornada Python Hashtag\Aula 1 - Python PowerUp (Automações)\produtos.csv")
 print(tabela)
 
 # Passo 4: Cadastrar um produto
