@@ -19,11 +19,11 @@
 import flet as ft
 
 def main(pagina):
-    texto = ft.Text("Hashzap")
+    texto = ft.Text("Hashzap da nox")
 
     chat = ft.Column()
 
-    nome_usuario = ft.TextField(label="Escreva seu nome")
+    nome_usuario = ft.TextField(label="Escreva seu nick")
 
     def enviar_mensagem_tunel(mensagem):
         tipo = mensagem["tipo"]
